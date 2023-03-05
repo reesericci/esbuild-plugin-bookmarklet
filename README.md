@@ -1,7 +1,5 @@
 # esbuild-bookmarklet
 
-*The ~~dumbest~~ greatest esbuild plugin of all time!*
-
 An ESM-only, Deno-first (supports node) plugin to generate bookmarklet code with esbuild! 
 
 ### Versioning
