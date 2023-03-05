@@ -1,4 +1,4 @@
-# esbuild-bookmarklet
+# esbuild-plugin-bookmarklet
 
 An ESM-only, Deno-first (supports node) plugin to generate bookmarklet code with esbuild! 
 
@@ -9,11 +9,11 @@ All releases after v1.0.0 are covered under [semver](https://semver.org)
 ## How to use
 
 ### Deno
-Add `import bookmarkletPlugin from "https://deno.land/x/esbuild-bookmarklet@{VERSION}/mod.js"`
+Add `import bookmarkletPlugin from "https://deno.land/x/esbuild_plugin_bookmarklet@{VERSION}/mod.js"`
 
 ### Node
 
-Add `import bookmarkletPlugin from "esbuild-bookmarklet"`
+Add `import bookmarkletPlugin from "esbuild-plugin-bookmarklet"`
 
 ---
 
@@ -31,7 +31,7 @@ plugins: [bookmarkletPlugin]
 ### Deno
 ```
 import * as esbuild from "https://deno.land/x/esbuild@v0.17.11/mod.js";
-import bookmarkletPlugin from "https://deno.land/x/esbuild-bookmarklet@{VERSION}/main.js" 
+import bookmarkletPlugin from "https://deno.land/x/esbuild_plugin_bookmarklet@{VERSION}/main.js" 
 
 esbuild.build({
   entryPoints: ['index.js'], // points to normal javascript
@@ -49,7 +49,7 @@ esbuild.build({
 
 ```
 import * as esbuild from "esbuild";
-import bookmarkletPlugin from "esbuild-bookmarklet" 
+import bookmarkletPlugin from "esbuild-plugin-bookmarklet" 
 
 esbuild.build({
   entryPoints: ['index.js'], // points to normal javascript
