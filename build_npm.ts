@@ -16,7 +16,7 @@ await build({
   },
   package: {
     // package.json properties
-    name: "esbuild-bookmarklet",
+    name: "esbuild-plugin-bookmarklet",
     version: Deno.args[0],
     description: "An esbuild plugin to generate bookmarklets!",
     license: "GPL-v3.0-or-later",
