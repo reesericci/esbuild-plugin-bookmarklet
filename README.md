@@ -4,7 +4,7 @@ A plugin to generate bookmarklet code with esbuild!
 
 ## How to use
 
-Add `import bookmarkletPlugin from "https://deno.land/x/esbuild-bookmarklet/main.js"`
+Add `import bookmarkletPlugin from "https://deno.land/x/esbuild_bookmarklet/main.js"`
 
 Then set the following parameters:
 
@@ -19,7 +19,7 @@ plugins: [bookmarkletPlugin]
 
 ```
 import * as esbuild from "https://deno.land/x/esbuild@v0.17.11/mod.js";
-import bookmarkletPlugin from "https://deno.land/x/esbuild-bookmarklet/main.js" 
+import bookmarkletPlugin from "https://deno.land/x/esbuild_bookmarklet/main.js" 
 
 esbuild.build({
   entryPoints: ['index.js'],
