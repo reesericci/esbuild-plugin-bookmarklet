@@ -15,17 +15,29 @@ All releases after v1.0.0 are covered under [semver](https://semver.org)
 ## How to use
 
 ### Deno
-Add `import bookmarkletPlugin from "https://deno.land/x/esbuild_plugin_bookmarklet@{VERSION}/mod.js"`
+Add to the top of your build script:
+
+```javascript
+import bookmarkletPlugin from "https://deno.land/x/esbuild_plugin_bookmarklet@{VERSION}/mod.js"
+```
+
+Replacing `{VERSION}` with the current released verision
 
 ### Node
 
-Add `import bookmarkletPlugin from "esbuild-plugin-bookmarklet"`
+- Run `npm i esbuild-plugin-bookmarklet`
+
+- Add to the top of your build script:
+
+  ```javascript
+  import bookmarkletPlugin from "esbuild-plugin-bookmarklet"
+  ```
 
 ---
 
 Then set the following parameters in your esbuild build script:
 
-```
+```javascript
 minify: true,
 write: false,
 format: 'iife',
@@ -35,7 +47,7 @@ plugins: [bookmarkletPlugin]
 ## Example esbuild build scripts
 
 ### Deno
-```
+```javascript
 import * as esbuild from "https://deno.land/x/esbuild@v0.17.11/mod.js";
 import bookmarkletPlugin from "https://deno.land/x/esbuild_plugin_bookmarklet@{VERSION}/main.js" 
 
@@ -53,7 +65,7 @@ esbuild.build({
 
 ### Node
 
-```
+```javascript
 import * as esbuild from "esbuild";
 import bookmarkletPlugin from "esbuild-plugin-bookmarklet" 
 
