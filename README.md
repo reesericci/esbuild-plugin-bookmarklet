@@ -21,7 +21,7 @@ Add to the top of your build script:
 import bookmarkletPlugin from "https://deno.land/x/esbuild_plugin_bookmarklet@{VERSION}/mod.js"
 ```
 
-Replacing `{VERSION}` with the current released verision
+Replacing `{VERSION}` with the current released version
 
 ### Node
 
