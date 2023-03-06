@@ -1,5 +1,11 @@
 # esbuild-plugin-bookmarklet
 
+![license type](https://img.shields.io/github/license/reesericci/esbuild-plugin-bookmarklet)
+![this is an ESM module](https://img.shields.io/badge/module%20type-ESM-purple)
+![deno supported](https://img.shields.io/badge/runtime-deno-black)
+![node supported](https://img.shields.io/badge/runtime-node-green)
+![npm version](https://img.shields.io/npm/v/esbuild-plugin-bookmarklet)
+
 An ESM-only, Deno-first (supports node) plugin to generate bookmarklet code with esbuild! 
 
 ### Versioning
